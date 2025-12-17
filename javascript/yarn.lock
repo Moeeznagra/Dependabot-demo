@@ -2,38 +2,236 @@
 # yarn lockfile v1
 
 
-"@handsontable/formulajs@^2.0.2":
+"@aws-cdk/asset-awscli-v1@2.2.237":
+  version "2.2.237"
+  resolved "https://registry.npmjs.org/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.237.tgz"
+  integrity sha512-OlXylbXI52lboFVJBFLae+WB99qWmI121x/wXQHEMj2RaVNVbWE+OAHcDk2Um1BitUQCaTf9ki57B0Fuqx0Rvw==
+
+"@aws-cdk/asset-node-proxy-agent-v6@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.npmjs.org/@aws-cdk/asset-node-proxy-agent-v6/-/asset-node-proxy-agent-v6-2.1.0.tgz"
+  integrity sha512-7bY3J8GCVxLupn/kNmpPc5VJz8grx+4RKfnnJiO1LG+uxkZfANZG3RMHhE+qQxxwkyQ9/MfPtTpf748UhR425A==
+
+"@aws-cdk/cloud-assembly-schema@^41.2.0":
+  version "41.2.0"
+  resolved "https://registry.npmjs.org/@aws-cdk/cloud-assembly-schema/-/cloud-assembly-schema-41.2.0.tgz"
+  integrity sha512-JaulVS6z9y5+u4jNmoWbHZRs9uGOnmn/ktXygNWKNu1k6lF3ad4so3s18eRu15XCbUIomxN9WPYT6Ehh7hzONw==
+  dependencies:
+    jsonschema "~1.4.1"
+    semver "^7.7.1"
+
+"@balena/dockerignore@^1.0.2":
+  version "1.0.2"
+
+"@handsontable/formulajs@^2.0.0":
   version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@handsontable/formulajs/-/formulajs-2.0.2.tgz#5be4b9226cc47811f646ae46b1b985230cd82995"
+  resolved "https://registry.npmjs.org/@handsontable/formulajs/-/formulajs-2.0.2.tgz"
   integrity sha512-maIyMJtYjA5e/R9nyA22Qd7Yw73MBSxClJvle0a8XWAS/5l6shc/OFpQqrmwMy4IXUCmywJ9ER0gOGz/YA720w==
   dependencies:
     bessel "^1.0.2"
     jstat "^1.9.2"
 
+ajv@^8.0.1:
+  version "8.17.1"
+  dependencies:
+    fast-deep-equal "^3.1.3"
+    fast-uri "^3.0.1"
+    json-schema-traverse "^1.0.0"
+    require-from-string "^2.0.2"
+
+ansi-regex@^5.0.1:
+  version "5.0.1"
+
+ansi-styles@^4.0.0:
+  version "4.3.0"
+  dependencies:
+    color-convert "^2.0.1"
+
+astral-regex@^2.0.0:
+  version "2.0.0"
+
+aws-cdk-lib@^2.198.0:
+  version "2.198.0"
+  resolved "https://registry.npmjs.org/aws-cdk-lib/-/aws-cdk-lib-2.198.0.tgz"
+  integrity sha512-CyZ+lnRsCsLskzQLPO0EiGl5EVcLluhfa67df3b8/gJfsm+91SHJa75OH+ymdGtUp5Vn/MWUPsujw0EhWMfsIQ==
+  dependencies:
+    "@aws-cdk/asset-awscli-v1" "2.2.237"
+    "@aws-cdk/asset-node-proxy-agent-v6" "^2.1.0"
+    "@aws-cdk/cloud-assembly-schema" "^41.2.0"
+    "@balena/dockerignore" "^1.0.2"
+    case "1.6.3"
+    fs-extra "^11.3.0"
+    ignore "^5.3.2"
+    jsonschema "^1.5.0"
+    mime-types "^2.1.35"
+    minimatch "^3.1.2"
+    punycode "^2.3.1"
+    semver "^7.7.2"
+    table "^6.9.0"
+    yaml "1.10.2"
+
+aws-cdk@^2.1017.0:
+  version "2.1017.0"
+  resolved "https://registry.npmjs.org/aws-cdk/-/aws-cdk-2.1017.0.tgz"
+  integrity sha512-KnpU9kOCR1k2tAcpYoqtIdq7UqKVX4ooNrGJq+dXUKRnIwQr66tSe5YEoeQGYxImAHv1LuZAyAAm5DcEPhbjNg==
+  optionalDependencies:
+    fsevents "2.3.2"
+
+balanced-match@^1.0.0:
+  version "1.0.2"
+
 bessel@^1.0.2:
   version "1.0.2"
-  resolved "https://registry.yarnpkg.com/bessel/-/bessel-1.0.2.tgz#828812291e0b62e94959cdea43fac186e8a7202d"
+  resolved "https://registry.npmjs.org/bessel/-/bessel-1.0.2.tgz"
   integrity sha512-Al3nHGQGqDYqqinXhQzmwmcRToe/3WyBv4N8aZc5Pef8xw2neZlR9VPi84Sa23JtgWcucu18HxVZrnI0fn2etw==
 
-hot-formula-parser@^3.0.0:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/hot-formula-parser/-/hot-formula-parser-3.0.2.tgz#d71f03a4ef43ba3074bde383a0e36202b5b64116"
-  integrity sha512-W/Dj/UbIyuViMIQOQD6tUEVySl7jd6ei+gfWslTiRqa4yRhkyHnIz8N4oLnqgDRhhVAQIcFF5NfNz49k4X8IxQ==
+brace-expansion@^1.1.7:
+  version "1.1.11"
   dependencies:
-    "@handsontable/formulajs" "^2.0.2"
-    tiny-emitter "^2.1.0"
+    balanced-match "^1.0.0"
+    concat-map "0.0.1"
+
+case@1.6.3:
+  version "1.6.3"
+
+color-convert@^2.0.1:
+  version "2.0.1"
+  dependencies:
+    color-name "~1.1.4"
+
+color-name@~1.1.4:
+  version "1.1.4"
+
+concat-map@0.0.1:
+  version "0.0.1"
+
+constructs@^10.0.0:
+  version "10.4.4"
+  resolved "https://registry.npmjs.org/constructs/-/constructs-10.4.4.tgz"
+  integrity sha512-lP0qC1oViYf1cutHo9/KQ8QL637f/W29tDmv/6sy35F5zs+MD9f66nbAAIjicwc7fwyuF3rkg6PhZh4sfvWIpA==
+
+emoji-regex@^8.0.0:
+  version "8.0.0"
+
+fast-deep-equal@^3.1.3:
+  version "3.1.3"
+
+fast-uri@^3.0.1:
+  version "3.0.6"
+
+fs-extra@^11.3.0:
+  version "11.3.0"
+  dependencies:
+    graceful-fs "^4.2.0"
+    jsonfile "^6.0.1"
+    universalify "^2.0.0"
+
+graceful-fs@^4.1.6, graceful-fs@^4.2.0:
+  version "4.2.11"
+
+hot-formula-parser@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmjs.org/hot-formula-parser/-/hot-formula-parser-3.0.0.tgz"
+  integrity sha512-CHLTrsrv29it5XPcHalNO8ClcJGHefwf599MePlG5dYzxxtbPqx/qt8CkrqvxQeNA5XtkAUcxU62OFv0z2L49A==
+  dependencies:
+    "@handsontable/formulajs" "^2.0.0"
+    tiny-emitter "^2.0.1"
+
+ignore@^5.3.2:
+  version "5.3.2"
+
+is-fullwidth-code-point@^3.0.0:
+  version "3.0.0"
+
+json-schema-traverse@^1.0.0:
+  version "1.0.0"
+
+jsonfile@^6.0.1:
+  version "6.1.0"
+  dependencies:
+    universalify "^2.0.0"
+  optionalDependencies:
+    graceful-fs "^4.1.6"
+
+jsonschema@^1.5.0:
+  version "1.5.0"
+
+jsonschema@~1.4.1:
+  version "1.4.1"
 
 jstat@^1.9.2:
   version "1.9.3"
-  resolved "https://registry.yarnpkg.com/jstat/-/jstat-1.9.3.tgz#6a0e60c3b87fd714b61e765b77fc6b035437ee34"
+  resolved "https://registry.npmjs.org/jstat/-/jstat-1.9.3.tgz"
   integrity sha512-/2JL4Xv6xfhN2+AEKQGTYr1LZTmBCR/5fHxJVvb9zWNsmKZfKrl3wYYK8SD/Z8kXkf+ZSusfumLZ4wDTHrWujA==
+
+lodash.truncate@^4.4.2:
+  version "4.4.2"
 
 lodash@^4.17.20:
   version "4.17.20"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
+  resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.20.tgz"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
 
-tiny-emitter@^2.1.0:
+mime-db@1.52.0:
+  version "1.52.0"
+
+mime-types@^2.1.35:
+  version "2.1.35"
+  dependencies:
+    mime-db "1.52.0"
+
+minimatch@^3.1.2:
+  version "3.1.2"
+  dependencies:
+    brace-expansion "^1.1.7"
+
+punycode@^2.3.1:
+  version "2.3.1"
+
+require-from-string@^2.0.2:
+  version "2.0.2"
+
+semver@^7.7.1:
+  version "7.7.1"
+
+semver@^7.7.2:
+  version "7.7.2"
+
+slice-ansi@^4.0.0:
+  version "4.0.0"
+  dependencies:
+    ansi-styles "^4.0.0"
+    astral-regex "^2.0.0"
+    is-fullwidth-code-point "^3.0.0"
+
+string-width@^4.2.3:
+  version "4.2.3"
+  dependencies:
+    emoji-regex "^8.0.0"
+    is-fullwidth-code-point "^3.0.0"
+    strip-ansi "^6.0.1"
+
+strip-ansi@^6.0.1:
+  version "6.0.1"
+  dependencies:
+    ansi-regex "^5.0.1"
+
+table@^6.9.0:
+  version "6.9.0"
+  dependencies:
+    ajv "^8.0.1"
+    lodash.truncate "^4.4.2"
+    slice-ansi "^4.0.0"
+    string-width "^4.2.3"
+    strip-ansi "^6.0.1"
+
+tiny-emitter@^2.0.1:
   version "2.1.0"
-  resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
+  resolved "https://registry.npmjs.org/tiny-emitter/-/tiny-emitter-2.1.0.tgz"
   integrity sha512-NB6Dk1A9xgQPMoGqC5CVXn123gWyte215ONT5Pp5a0yt4nlEoO1ZWeCwpncaekPHXO60i47ihFnZPiRPjRMq4Q==
+
+universalify@^2.0.0:
+  version "2.0.1"
+
+yaml@1.10.2:
+  version "1.10.2"
