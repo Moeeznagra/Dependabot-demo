@@ -9,14 +9,14 @@ importers:
   .:
     dependencies:
       aws-cdk:
-        specifier: 2.1017.0
-        version: 2.1017.0
+        specifier: 2.1100.1
+        version: 2.1100.1
 
 packages:
 
-  aws-cdk@2.1017.0:
-    resolution: {integrity: sha512-KnpU9kOCR1k2tAcpYoqtIdq7UqKVX4ooNrGJq+dXUKRnIwQr66tSe5YEoeQGYxImAHv1LuZAyAAm5DcEPhbjNg==}
-    engines: {node: '>= 14.15.0'}
+  aws-cdk@2.1100.1:
+    resolution: {integrity: sha512-q2poFrQh90TK6eqeI0zznA8r1JkDI63WVOSqC7gFGo6qjQjAnvFk/utxHoNRgAC0RL0CLd19uCcHh3jfX9NiSg==}
+    engines: {node: '>= 18.0.0'}
     hasBin: true
 
   fsevents@2.3.2:
@@ -26,7 +26,7 @@ packages:
 
 snapshots:
 
-  aws-cdk@2.1017.0:
+  aws-cdk@2.1100.1:
     optionalDependencies:
       fsevents: 2.3.2
 
