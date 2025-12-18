@@ -12,7 +12,6 @@ jobs:
       - name: Print hello world
         run: |
           echo "hello world"
-          exit 1
 
   dependabot-auto-merge:
     runs-on: ubuntu-latest
