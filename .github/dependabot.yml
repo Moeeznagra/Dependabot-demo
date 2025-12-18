@@ -1,14 +1,9 @@
 version: 2
 updates:
-  - package-ecosystem: "npm"
+  - package-ecosystem: "pnpm"
     directory: "/javascript"
     schedule:
       interval: "daily"
-    groups:
-      cdk-dependencies:
-        patterns:
-          - "aws-cdk"
-          - "aws-cdk-lib"
     allow:
       - dependency-name: "aws-cdk"
       - dependency-name: "aws-cdk-lib"
