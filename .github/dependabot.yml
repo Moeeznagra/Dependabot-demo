@@ -1,9 +1,8 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directory: "/javascript"
+    directory: "/infrastructure"
     schedule:
       interval: "daily"
     allow:
       - dependency-name: "aws-cdk"
-      - dependency-name: "aws-cdk-lib"
