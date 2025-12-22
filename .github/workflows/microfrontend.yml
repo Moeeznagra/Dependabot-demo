@@ -1,0 +1,23 @@
+name: microfrontend
+on:
+  push:
+  pull_request:
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    if: github.actor == 'dependabot[bot]'
+    steps:
+      - run: echo "hello world"
+
+  job2:
+    runs-on: ubuntu-latest
+    if: github.actor == 'dependabot[bot]'
+    steps:
+      - run: echo "hello world"
+
+  job3:
+    runs-on: ubuntu-latest
+    if: github.actor == 'dependabot[bot]'
+    steps:
+      - run: echo "hello world"

@@ -3,6 +3,11 @@ updates:
   - package-ecosystem: "npm"
     directory: "/infrastructure"
     schedule:
-      interval: "daily"
+      interval: "weekly"
+    groups:
+      dependencies:
+        patterns:
+          - "*"
     allow:
       - dependency-name: "aws-cdk"
+      - dependency-name: "aws-cdk-lib"
